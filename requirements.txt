@@ -1,0 +1,4 @@
+https://github.com/hyperskill/hs-test-python/archive/release.tar.gz
+pandas==1.2.4
+numpy==1.20.2
+sklearn==0.0

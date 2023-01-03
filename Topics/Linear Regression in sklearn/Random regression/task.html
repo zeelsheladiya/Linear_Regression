@@ -1,0 +1,17 @@
+<p></p>
+<p> </p>
+<p>Please note: for now, when you go to the tab IDE, you can solve this problem only via Pycharm. We are sorry for the inconvenience, we will fix this as soon as we can. If you prefer to solve the problem via a different IDE, you should open it manually and then copy the solution to the website.</p>
+<p> </p>
+<p>You're given a dataset. </p>
+<p>1. Load the dataset, split it into training and test data (the last<strong> 70 observations</strong>). You can do this by running the following lines of code (just adjust the path to the .txt file):</p>
+<pre><code class="language-python">import pandas as pd
+
+df = pd.read_csv("/Users/username/dir/dataset_0000.txt")
+X_train = df.iloc[:-70,:4]
+X_test = df.iloc[-70:, :4]
+y_train = df.target[:-70]
+y_test = df.target[-70:]
+</code></pre>
+<p>2.<strong> </strong>Build a Linear Regression<strong> </strong>model.</p>
+<p>3.<strong> </strong>Find the intercept of your model.</p>
+<p>Insert the intercept value in the answer field. Round it up to <strong>three decimal places</strong>.</p><br>
